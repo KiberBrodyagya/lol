@@ -39,7 +39,6 @@ class Image extends JComponent
 {
     public Image()
     {
-        // Получаем изображения.
         try
         {
             image = ImageIO.read(new File("src/1.jpg"));
