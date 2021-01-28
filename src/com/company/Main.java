@@ -29,8 +29,6 @@ class ImageFrame extends JFrame
         setTitle("ImageTest");
         setSize(DEFAULT_WIDTH, DEFAULT_HEIGHT);
 
-        // Добавление компонента к фрейму.
-
         Image image = new Image();
         add(image);
     }
